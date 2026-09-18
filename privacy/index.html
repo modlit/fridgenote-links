@@ -1,0 +1,60 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy — FridgeNote</title>
+<style>
+  body { margin:0; background:#7ECDA8; color:#22271F; padding:40px 24px;
+         font:17px/1.6 ui-sans-serif, system-ui, sans-serif; }
+  main { max-width:38rem; margin:0 auto; }
+  h1 { font-size:34px; margin:0 0 6px; letter-spacing:-.5px; }
+  h2 { font-size:20px; margin:32px 0 8px; }
+  p, li { margin:0 0 12px; }
+  .updated { opacity:.65; margin-bottom:28px; }
+</style>
+<main>
+<h1>Privacy</h1>
+<p class="updated">FridgeNote · last updated 18 September 2026</p>
+
+<p>FridgeNote is a shared note board for two people. This page describes
+everything it stores and everything it sends anywhere.</p>
+
+<h2>No account, no identity</h2>
+<p>There is no sign-up. The app creates an anonymous Firebase account, which is
+a random identifier with no name, email or phone number attached. We never ask
+for any of those and could not link the app to you if we wanted to.</p>
+
+<h2>Your notes are encrypted before they leave the phone</h2>
+<p>Note text and the display names you choose are encrypted on your device with
+a key generated on your phone. The key is shared with your partner's phone
+directly, by QR code or invite link, and is never sent to the database. Whoever
+operates the servers cannot read your notes. Nor can we.</p>
+
+<h2>What the database can see</h2>
+<p>Encryption hides content, not the shape of it. Stored unencrypted are: the
+two anonymous identifiers sharing a board, how many notes exist, and when they
+were created or changed. Your chosen fridge colour stays on your own phone.</p>
+
+<h2>What stays on your phone</h2>
+<p>The encryption key, your fridge colour, and the text of any reminder waiting
+to be shown. Uninstalling the app deletes all of it. If both phones lose the
+key, the notes can never be read again, by anyone.</p>
+
+<h2>What we don't do</h2>
+<p>No analytics. No advertising. No tracking. No profiling. Nothing sold or
+shared with anyone. The app asks for no camera, location, contacts or storage
+permission; scanning an invite uses the system scanner, which returns only the
+scanned text.</p>
+
+<h2>Services</h2>
+<p>Notes sync through Google Firebase (anonymous authentication and Firestore),
+which stores the encrypted data described above. Google's handling of it is
+covered by their own privacy policy.</p>
+
+<h2>Children</h2>
+<p>FridgeNote is not directed at children and collects nothing that could
+identify anyone, of any age.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: raise an issue at
+<a href="https://github.com/modlit/fridgenote-links">github.com/modlit/fridgenote-links</a>.</p>
+</main>

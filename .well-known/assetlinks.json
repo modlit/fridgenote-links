@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.fridgenote",
+      "sha256_cert_fingerprints": [
+        "9C:72:EA:17:9F:3B:83:CF:2D:EF:F8:92:C2:7D:75:2C:B7:8F:91:6E:EB:28:8F:34:E4:D2:FC:53:91:EB:18:71",
+        "03:02:89:8B:7F:6B:57:41:AE:97:B0:95:D6:67:95:77:3C:D7:04:2D:D3:3E:C6:E2:0A:AF:31:8A:EA:08:9E:07"
+      ]
+    }
+  }
+]

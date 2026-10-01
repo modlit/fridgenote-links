@@ -13,7 +13,7 @@
 </style>
 <main>
 <h1>Privacy</h1>
-<p class="updated">FridgeNote · last updated 18 September 2026</p>
+<p class="updated">FridgeNote · last updated 1 October 2026</p>
 
 <p>FridgeNote is a shared note board for two people. This page describes
 everything it stores and everything it sends anywhere.</p>
@@ -21,7 +21,8 @@ everything it stores and everything it sends anywhere.</p>
 <h2>No account, no identity</h2>
 <p>There is no sign-up. The app creates an anonymous Firebase account, which is
 a random identifier with no name, email or phone number attached. We never ask
-for any of those and could not link the app to you if we wanted to.</p>
+for any of those. That identifier is still an identifier: it ties your notes
+to one install, and it is not anonymity in the everyday sense.</p>
 
 <h2>Your notes are encrypted before they leave the phone</h2>
 <p>Note text and the display names you choose are encrypted on your device with
@@ -35,8 +36,11 @@ two anonymous identifiers sharing a board, how many notes exist, and when they
 were created or changed. Your chosen fridge colour stays on your own phone.</p>
 
 <h2>What stays on your phone</h2>
-<p>The encryption key, your fridge colour, and the text of any reminder waiting
-to be shown. Uninstalling the app deletes all of it. If both phones lose the
+<p>The encryption key, your fridge colour, which notes you have seen, and the
+text of any reminder waiting to be shown. Reminder text is held in plain form
+by Android's own notification system and appears on your lock screen when a
+reminder fires, so a note's text can be read there by anyone holding the
+phone. Uninstalling the app deletes all of it. If both phones lose the
 key, the notes can never be read again, by anyone.</p>
 
 <h2>What we don't do</h2>
@@ -54,7 +58,14 @@ covered by their own privacy policy.</p>
 <p>FridgeNote is not directed at children and collects nothing that could
 identify anyone, of any age.</p>
 
+<h2>Deleting your data</h2>
+<p>Uninstalling removes everything held on your phone, including the key. Notes
+already sent to the database stay there, encrypted, and the app has no button
+that deletes them. If you want them gone, ask using the contact below and they
+will be removed.</p>
+
 <h2>Contact</h2>
-<p>Questions about this policy: raise an issue at
+<p>Questions about this policy, or a request to delete your data:
+<a href="mailto:hello@modlit.io">hello@modlit.io</a>, or raise an issue at
 <a href="https://github.com/modlit/fridgenote-links">github.com/modlit/fridgenote-links</a>.</p>
 </main>
